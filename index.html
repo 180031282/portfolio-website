@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lahari Dilli — Software Engineer</title>
+<meta name="description" content="Lahari Dilli — Software Engineer specializing in backend systems, real-time ML, and agentic AI platforms.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#top" class="brand">LD<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn btn-ghost resume-link" href="mailto:laharidilli@gmail.com">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero container">
+    <p class="eyebrow">Software Engineer · Fairfax, VA</p>
+    <h1>Lahari Dilli</h1>
+    <p class="hero-sub">
+      I build <span class="hl">real-time backend systems</span>, <span class="hl">ML-driven risk platforms</span>,
+      and <span class="hl">agentic AI workflows</span> — currently shipping fraud &amp; risk infrastructure
+      at scale, previously at Mu Sigma across fintech and supply-chain data platforms.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>4+</strong><span>years experience</span></div>
+      <div><strong>3</strong><span>agentic AI / ML systems shipped</span></div>
+      <div><strong>MS CS</strong><span>George Mason University</span></div>
+    </div>
+  </section>
+
+  <section id="about" class="section container">
+    <h2 class="section-title"><span class="tag">01</span> About</h2>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm a Software Engineer with 4+ years of experience designing and delivering scalable backend systems,
+        cloud-native applications, and machine learning &amp; agentic AI-powered platforms across fintech, risk
+        management, and enterprise analytics. I work primarily in Python (FastAPI, Flask), Node.js, and
+        distributed systems built on AWS, Kafka, and Docker — with a growing focus on autonomous, tool-using
+        AI agents and LLM-powered services: fraud-investigation workflows, real-time inference pipelines, and
+        RAG-based reasoning systems that measurably improve accuracy, latency, and operational efficiency.
+      </p>
+      <div class="about-card">
+        <h3>Currently</h3>
+        <p>Software Engineer, building ML-driven payment risk &amp; fraud detection infrastructure and agentic
+          fraud-investigation tooling.</p>
+        <h3>Education</h3>
+        <p>M.S. Computer Science — George Mason University<br>B.S. Computer Science — Koneru Lakshmaiah University</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section container">
+    <h2 class="section-title"><span class="tag">02</span> Experience</h2>
+    <ol class="timeline">
+      <li class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">May 2025 — Present</span>
+        </div>
+        <div class="timeline-body">
+          <h3>Software Engineer</h3>
+          <p class="timeline-role">Payments / Risk &amp; Fraud Platform</p>
+          <ul>
+            <li>Architected an end-to-end ML-driven payment risk &amp; fraud detection platform, defining microservice boundaries, real-time data flows, and model integration strategy.</li>
+            <li>Built high-throughput real-time risk-scoring microservices in FastAPI/Flask and event-driven feature pipelines on Apache Kafka.</li>
+            <li>Designed and deployed an agentic AI fraud-investigation workflow using tool-calling agents that autonomously plan multi-step investigations, cutting manual case-triage time.</li>
+            <li>Shipped an LLM-powered contextual reasoning service using Retrieval-Augmented Generation grounded in internal knowledge bases.</li>
+            <li>Integrated XGBoost/Scikit-learn models into live decisioning, automated CI/CD with GitHub Actions &amp; Jenkins for zero-downtime canary deploys on AWS ECS.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">Jan 2021 — Jul 2023</span>
+        </div>
+        <div class="timeline-body">
+          <h3>Software Engineer</h3>
+          <p class="timeline-role">Mu Sigma — Data &amp; Analytics Engineering</p>
+          <ul>
+            <li>Designed and delivered scalable full-stack data applications (Python, Node.js/Express) across 5+ enterprise engagements in retail, BFSI, and supply chain.</li>
+            <li>Built production REST APIs and automated ETL pipelines processing 500K+ daily records into AWS S3/Redshift warehouses.</li>
+            <li>Built reusable Python libraries for preprocessing, feature engineering, and anomaly detection used across 4 concurrent project teams.</li>
+            <li>Provisioned and managed AWS infrastructure, improving uptime and reducing infrastructure costs through right-sizing.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="projects" class="section container">
+    <h2 class="section-title"><span class="tag">03</span> Projects</h2>
+    <p class="section-sub">Three original systems demonstrating agentic AI, real-time ML infrastructure, and developer tooling — all open source, fully tested, runnable with zero API keys.</p>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-head">
+          <h3>Agentic Fraud Investigation Platform</h3>
+          <span class="project-badge">Agentic AI · RAG</span>
+        </div>
+        <p>A multi-step, tool-calling AI agent that autonomously investigates flagged financial transactions —
+          pulling transaction history, customer profiles, and similar cases, grounding decisions in a
+          RAG-retrieved policy corpus, and producing investigator-ready structured reports with full
+          reasoning traces.</p>
+        <ul class="project-highlights">
+          <li>ReAct-style tool-calling agent with a deterministic offline planner (runs with zero API keys) and an optional real-LLM planner</li>
+          <li>TF-IDF + cosine-similarity RAG over original fraud-policy documents</li>
+          <li>FastAPI service, SQLAlchemy + synthetic data generator, 26 automated tests</li>
+        </ul>
+        <div class="project-stack">
+          <span>Python</span><span>FastAPI</span><span>LangChain-style Agent</span><span>RAG</span><span>SQLAlchemy</span><span>Docker</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/180031282/agentic-fraud-investigator" target="_blank" rel="noopener" class="btn btn-small">GitHub ↗</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-head">
+          <h3>Real-Time Risk Scoring Pipeline</h3>
+          <span class="project-badge">Streaming · ML</span>
+        </div>
+        <p>An event-driven fraud-scoring system: synthetic transactions stream through Kafka, get scored
+          in real time by a trained XGBoost model, and surface on a live dashboard — the same
+          producer → broker → scorer → API shape used in production payment risk systems.</p>
+        <ul class="project-highlights">
+          <li>Kafka (KRaft) event streaming, sub-millisecond feature extraction + inference latency</li>
+          <li>XGBoost model trained on a semantically realistic synthetic dataset (ROC AUC 0.876, measured)</li>
+          <li>FastAPI live dashboard, full Docker Compose stack, 37 automated tests</li>
+        </ul>
+        <div class="project-stack">
+          <span>Python</span><span>Kafka</span><span>XGBoost</span><span>FastAPI</span><span>Docker Compose</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/180031282/realtime-risk-scoring" target="_blank" rel="noopener" class="btn btn-small">GitHub ↗</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-head">
+          <h3>AI PR Review Agent</h3>
+          <span class="project-badge">Dev Tooling · CLI</span>
+        </div>
+        <p>An agentic code-review CLI that fetches a real GitHub PR diff, runs it through security and
+          quality analyzers (secret leaks, SQL injection, dangerous calls, complexity), and posts a
+          structured markdown review — pip-installable and ready to drop into any repo's CI today.</p>
+        <ul class="project-highlights">
+          <li>Pluggable analyzer registry (secrets, SQL injection, eval/exec, cyclomatic complexity, TODOs)</li>
+          <li>Works fully offline against a local diff file, or live against any public GitHub PR</li>
+          <li>Ships a ready-to-use GitHub Actions workflow; 62 automated tests, zero live network calls in CI</li>
+        </ul>
+        <div class="project-stack">
+          <span>Python</span><span>GitHub API</span><span>CLI</span><span>GitHub Actions</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/180031282/ai-pr-review-agent" target="_blank" rel="noopener" class="btn btn-small">GitHub ↗</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills" class="section container">
+    <h2 class="section-title"><span class="tag">04</span> Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <p>Python · JavaScript · TypeScript · SQL</p>
+      </div>
+      <div class="skill-group">
+        <h3>Backend</h3>
+        <p>FastAPI · Flask · Node.js · Express.js · REST APIs · Microservices · Event-Driven Architecture</p>
+      </div>
+      <div class="skill-group">
+        <h3>Cloud &amp; Infra</h3>
+        <p>AWS (ECS, EKS, EC2, Lambda, S3, Redshift, CloudWatch) · Docker · Kubernetes</p>
+      </div>
+      <div class="skill-group">
+        <h3>Data</h3>
+        <p>PostgreSQL · Cassandra · Redshift · Apache Kafka · Apache Airflow · ETL Pipelines</p>
+      </div>
+      <div class="skill-group">
+        <h3>Agentic AI &amp; ML</h3>
+        <p>Tool-Calling Agents · LangChain · RAG · LLMs · XGBoost · Scikit-learn · Fraud Detection</p>
+      </div>
+      <div class="skill-group">
+        <h3>DevOps</h3>
+        <p>GitHub Actions · Jenkins · Spinnaker · CI/CD · Canary Deployments</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section container contact-section">
+    <h2 class="section-title"><span class="tag">05</span> Contact</h2>
+    <p class="section-sub">Open to conversations about backend, ML infrastructure, and agentic AI roles.</p>
+    <div class="contact-links">
+      <a href="mailto:laharidilli@gmail.com" class="btn btn-primary">laharidilli@gmail.com</a>
+      <a href="https://github.com/180031282" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer container">
+  <p>Designed &amp; built by Lahari Dilli. © <span id="year"></span></p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
