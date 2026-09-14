@@ -1,11 +1,11 @@
-# Portfolio — Lahari Dilli
+# Portfolio, Lahari Dilli
 
 Personal portfolio site: about, experience, and three featured open-source projects
 ([agentic-fraud-investigator](https://github.com/180031282/agentic-fraud-investigator),
 [realtime-risk-scoring](https://github.com/180031282/realtime-risk-scoring),
 [ai-pr-review-agent](https://github.com/180031282/ai-pr-review-agent)).
 
-Plain HTML/CSS/JS, no build step, no dependencies — deployed as a Netlify static site.
+Plain HTML/CSS/JS. No build step, no dependencies. Deployed as a Netlify static site.
 
 ## Local preview
 
